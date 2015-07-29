@@ -1,0 +1,52 @@
+tap 'caskroom/cask'
+tap 'caskroom/versions'
+
+# Brew
+
+## Android
+
+brew 'android-sdk'
+brew 'gradle'
+brew 'pidcat'
+
+## Development
+
+brew 'ag'
+brew 'cloc'
+brew 'httpie'
+brew 'ncdu'
+brew 'tig'
+brew 'tree'
+
+## Utils
+
+brew 'brew-cask'
+
+## Zsh
+
+brew 'zsh-completions'
+brew 'zsh-syntax-highlighting'
+
+# Cask
+
+## Android
+
+cask 'android-studio'
+cask 'java6'
+cask 'java'
+
+## Development
+
+cask 'macdown'
+cask 'paw'
+
+## Utils
+
+cask '1password'
+cask 'coconutbattery'
+cask 'daisydisk'
+cask 'dropbox'
+cask 'google-chrome'
+cask 'ibank'
+cask 'transmission'
+cask 'vlc'

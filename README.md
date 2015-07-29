@@ -1,0 +1,3 @@
+# Configurator
+
+OS → Awesome OS.
