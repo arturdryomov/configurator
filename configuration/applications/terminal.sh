@@ -1,6 +1,6 @@
 # Shell: Zsh
 
-defaults write com.apple.Terminal Shell -string "/bin/zsh"
+defaults write com.apple.Terminal Shell -string "$(which zsh)"
 
 # Theme: Tomorrow Night
 
