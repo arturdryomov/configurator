@@ -2,21 +2,18 @@
 
 ## Mac App Store
 
-* Pages
-* Pixelmator
-* Reeder
-* The Unarchiver
-* Wunderlist
+```
+$ make open-store-pages
+$ make open-store-pixelmator
+$ make open-store-reeder
+$ make open-store-the-unarchiver
+$ make open-store-wunderlist
+```
 
 ## Brew and Cask
 
 ```
-$ xcode-select --install
-```
-
-[Install Brew](http://brew.sh).
-
-```
-$ brew tap homebrew/brewdler
-$ brew brewdle
+$ make install-command-line-tools
+$ make install-brew
+$ make install-brew-packages
 ```
