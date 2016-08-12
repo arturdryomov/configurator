@@ -13,9 +13,11 @@ brew 'pidcat'
 
 brew 'ag'
 brew 'cloc'
+brew 'git'
 brew 'httpie'
 brew 'ncdu'
 brew 'tig'
+brew 'tmux'
 brew 'tree'
 
 ## Utils
@@ -32,21 +34,20 @@ brew 'zsh-syntax-highlighting'
 ## Android
 
 cask 'android-studio'
+cask 'intel-haxm'
 cask 'java6'
 cask 'java'
 
 ## Development
 
-cask 'macdown'
 cask 'paw'
 
 ## Utils
 
 cask '1password'
-cask 'coconutbattery'
-cask 'daisydisk'
 cask 'dropbox'
 cask 'google-chrome'
 cask 'ibank'
+cask 'spotify'
 cask 'transmission'
 cask 'vlc'
