@@ -22,7 +22,7 @@ brew 'tree'
 
 ## Utils
 
-brew 'brew-cask'
+brew 'mas'
 
 ## Zsh
 
@@ -38,16 +38,19 @@ cask 'intel-haxm'
 cask 'java6'
 cask 'java'
 
-## Development
-
-cask 'paw'
-
 ## Utils
 
 cask '1password'
+cask 'banktivity'
 cask 'dropbox'
 cask 'google-chrome'
-cask 'ibank'
 cask 'spotify'
 cask 'transmission'
 cask 'vlc'
+
+# Mac App Store
+
+mas 'Pages', id: 409201541
+mas 'Telegram', id: 747648890
+mas 'Unarchiver', id: 425424353
+mas 'Wunderlist', id: 410628904
