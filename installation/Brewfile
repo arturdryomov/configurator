@@ -7,27 +7,20 @@ tap 'caskroom/versions'
 
 brew 'android-sdk'
 brew 'gradle'
-brew 'pidcat'
 
 ## Development
 
 brew 'ag'
 brew 'cloc'
 brew 'git'
-brew 'httpie'
 brew 'ncdu'
 brew 'tig'
-brew 'tmux'
 brew 'tree'
 
 ## Utils
 
+brew 'antigen'
 brew 'mas'
-
-## Zsh
-
-brew 'zsh-completions'
-brew 'zsh-syntax-highlighting'
 
 # Cask
 
