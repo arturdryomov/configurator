@@ -6,7 +6,6 @@ tap 'caskroom/versions'
 ## Android
 
 brew 'android-sdk'
-brew 'gradle'
 
 ## Development
 
@@ -15,12 +14,11 @@ brew 'cloc'
 brew 'git'
 brew 'ncdu'
 brew 'tig'
-brew 'tree'
 
 ## Utils
 
 brew 'antigen'
-brew 'mas'
+brew 'tree'
 
 # Cask
 
@@ -28,12 +26,10 @@ brew 'mas'
 
 cask 'android-studio'
 cask 'intel-haxm'
-cask 'java6'
 cask 'java'
 
 ## Utils
 
-cask '1password'
 cask 'banktivity'
 cask 'dropbox'
 cask 'google-chrome'
@@ -43,7 +39,9 @@ cask 'vlc'
 
 # Mac App Store
 
+mas '1Password', id: 443987910
 mas 'Pages', id: 409201541
+mas 'Slack', id: 803453959
 mas 'Telegram', id: 747648890
+mas 'TickTick', id: 966085870
 mas 'Unarchiver', id: 425424353
-mas 'Wunderlist', id: 410628904
