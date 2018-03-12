@@ -1,47 +1,46 @@
-tap 'caskroom/cask'
-tap 'caskroom/versions'
+tap "caskroom/cask"
 
 # Brew
 
-## Android
-
-brew 'android-sdk'
-
 ## Development
 
-brew 'ag'
-brew 'cloc'
-brew 'git'
-brew 'ncdu'
-brew 'tig'
+brew "ag", args: ["without-xz"]
+brew "cloc"
+brew "git"
+brew "ncdu"
+brew "tig", args: ["without-readline"]
 
 ## Utils
 
-brew 'antigen'
-brew 'tree'
+brew "antigen"
+brew "hugo"
+brew "tree"
 
 # Cask
 
 ## Android
 
-cask 'android-studio'
-cask 'intel-haxm'
-cask 'java'
+cask "android-sdk"
+cask "android-studio"
+cask "intel-haxm"
+cask "java"
 
 ## Utils
 
-cask 'banktivity'
-cask 'dropbox'
-cask 'google-chrome'
-cask 'spotify'
-cask 'transmission'
-cask 'vlc'
+cask "1password"
+cask "dropbox"
+cask "google-chrome"
+cask "plex-media-server"
+cask "spotify"
+cask "transmission"
+cask "tunnelbear"
+cask "vlc"
 
 # Mac App Store
 
-mas '1Password', id: 443987910
-mas 'Pages', id: 409201541
-mas 'Slack', id: 803453959
-mas 'Telegram', id: 747648890
-mas 'TickTick', id: 966085870
-mas 'Unarchiver', id: 425424353
+mas "Just Focus", id: 1142151959
+mas "Pages", id: 409201541
+mas "Slack", id: 803453959
+mas "Telegram", id: 747648890
+mas "TickTick", id: 966085870
+mas "Unarchiver", id: 425424353
