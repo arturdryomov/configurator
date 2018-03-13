@@ -18,6 +18,8 @@ brew "tree"
 
 # Cask
 
+cask_args appdir: "/Applications"
+
 ## Android
 
 cask "android-sdk"
