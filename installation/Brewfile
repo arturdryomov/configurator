@@ -4,11 +4,11 @@ tap "caskroom/cask"
 
 ## Development
 
-brew "ag", args: ["without-xz"]
+brew "ag"
 brew "cloc"
 brew "git"
 brew "ncdu"
-brew "tig", args: ["without-readline"]
+brew "tig"
 
 ## Utils
 
@@ -25,6 +25,7 @@ cask_args appdir: "/Applications"
 cask "android-sdk"
 cask "android-studio"
 cask "intel-haxm"
+cask "intellij-idea-ce"
 cask "java"
 
 ## Utils
@@ -32,7 +33,7 @@ cask "java"
 cask "1password"
 cask "dropbox"
 cask "google-chrome"
-cask "plex-media-server"
+cask "macvim"
 cask "spotify"
 cask "transmission"
 cask "tunnelbear"
@@ -40,7 +41,6 @@ cask "vlc"
 
 # Mac App Store
 
-mas "Just Focus", id: 1142151959
 mas "Pages", id: 409201541
 mas "Slack", id: 803453959
 mas "Telegram", id: 747648890
