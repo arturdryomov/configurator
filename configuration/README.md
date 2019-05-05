@@ -9,21 +9,38 @@ $ cd dotfiles && make install
 
 ## System
 
-### Automated
+### Automation
 
-`defaults write` approach looks nice but in practice it is not reliable at all.
+`defaults write` approach is nice but in practice it is not reliable at all.
 macOS versions change, application versions change and there is no public API
-for `defaults` usage. After some years I just decided to drop all magical scripts.
+for `defaults` usage. After years I’ve decided to drop it.
 
 ### Manual
 
 #### System Preferences
 
-* Spotlight. Privacy. Add `~/Code`.
-* Keyboard. Input Sources. Add Russian.
-* Keyboard. Shortcuts. Change input sources and Spotlight ones.
-* Sound. Show volume in menu bar — enable.
-* Mission Control. Automatically rearrange Spaces based on most recent use: off.
+* Desktop & Screen Saver → Screen Saver → Start after: Never.
+* Dock → Automatically hide and show: check.
+* Dock → Show recent applications: uncheck.
+* Mission Control → Automatically rearrange: uncheck.
+* Language & Region → + → Russian.
+* Language & Region → 24-Hour Time: check.
+* Security & Privacy → Require password immediately after sleep.
+* Keyboard → Key Repeat → Fast.
+* Keyboard → Delay Until Repeat → Short.
+* Keyboard → Shortcuts → Input Sources: ⌘Space.
+* Keyboard → Shortcuts → Spotlight: ^Space.
+* Trackpad → Silent clicking
+* Sound → Show volume in menu bar.
+* Date & Time → Clock → Show the day of the week: uncheck.
+
+#### Finder
+
+* Preferences → General → New Finder windows show → Home.
+
+#### Mail
+
+* Preferences → Viewing → Show most recent message at the top: check.
 
 #### Terminal
 
